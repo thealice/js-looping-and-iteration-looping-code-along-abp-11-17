@@ -5,3 +5,11 @@ function printBadges(arrayNames) {
   }
   return arrayNames;
 }
+
+function tailsNeverFails() {
+  return Math.random() >= 0.5;
+}
+
+while (counter = 0; tailsNeverFails() === true; counter++) {
+  return `"You got ${counter + 1} tails in a row!"`;
+}
