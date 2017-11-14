@@ -11,9 +11,9 @@ function tailsUp() {
 }
 
 function tailsNeverFails() {
-  let counter = 0; 
+  let counter = 0;
   while (tailsUp()) {
     counter++
   }
-  return `"You got ${counter + 1} tails in a row!"`;
+  return `"You got ${counter} tails in a row!"`;
 }
