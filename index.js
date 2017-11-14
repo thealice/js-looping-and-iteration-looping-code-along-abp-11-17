@@ -1,7 +1,7 @@
 // Code your solutions in this file
-const badges = ['Ada', 'Brendan', 'Ali'];
-function printBadges(array) {
-  for (let i = 1; i < array.length; i++;) {
-    console.log(`Welcome ${array[i]}! You are employee #[i].`);
+function printBadges(arrayNames) {
+  arrayNames = ['Ada', 'Brendan', 'Ali'];
+  for (let i = 1; i < arrayNames.length; i++;) {
+    console.log(`Welcome ${arrayNames[i]}! You are employee #[i].`);
   }
 }
